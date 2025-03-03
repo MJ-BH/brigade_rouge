@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "brigade-rouge",
+          "appId": "1:521026637434:android:977c3088cf524b0954f5c3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "brigade-rouge",
+          "configurations": {
+            "android": "1:521026637434:android:977c3088cf524b0954f5c3",
+            "ios": "1:521026637434:ios:0bbe408aa2c2b46d54f5c3",
+            "web": "1:521026637434:web:13fffbd4773860f654f5c3",
+            "windows": "1:521026637434:web:64b06585d965abc854f5c3"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

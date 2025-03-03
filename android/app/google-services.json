@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521026637434",
+    "project_id": "brigade-rouge",
+    "storage_bucket": "brigade-rouge.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521026637434:android:977c3088cf524b0954f5c3",
+        "android_client_info": {
+          "package_name": "com.br01.brigade_rouge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCbQuPPI7wnr1oif5RslClmTlC7P5c9wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
